@@ -5,12 +5,13 @@ import "./index.css";
 import WebApp from "@twa-dev/sdk";
 import { TonConnectUIProvider } from "@tonconnect/ui-react";
 
-const manifestUrl = "";
+const manifestUrl =
+  "https://github.com/vitaliyugnenko/tgminapp/blob/main/src/tonconnect-manifest.json";
 
 WebApp.ready();
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <TonConnectUIProvider manifestUrl={}>
+  <TonConnectUIProvider manifestUrl={manifestUrl}>
     <App />
   </TonConnectUIProvider>
 );
