@@ -1,15 +1,11 @@
-import { useState } from "react";
 import blumLogo from "./assets/Blum.png";
 import telegramLogo from "./assets/telegram.png";
 import twitterLogo from "./assets/twitter.png";
 import discordLogo from "./assets/discord.png";
 import "./App.css";
-
-import WebApp from "@twa-dev/sdk";
+import { TonConnectButton } from "@tonconnect/ui-react";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <div>
@@ -33,21 +29,7 @@ function App() {
         </a>
       </div>
       <h1>GET FREE BLUM TOKENS</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-      {/* Here we add our button with alert callback */}
-      <div className="card">
-        <button
-          onClick={() =>
-            WebApp.showAlert(`Hello World! Current count is ${count}`)
-          }
-        >
-          Show Alert
-        </button>
-      </div>
+      <TonConnectButton />
     </>
   );
 }
