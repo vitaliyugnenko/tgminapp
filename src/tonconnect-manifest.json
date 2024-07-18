@@ -1,6 +1,5 @@
 {
   "url": "https://tgminapp-dvt3hcxr4-vitaliis-projects-34ffd273.vercel.app",
   "name": "tgminapp",
-  "iconUrl": "https://raw.githubusercontent.com/vitaliyugnenko/tgminapp/main/src/assets/react.png",
-  "bridge": "https://ton-connect.github.io/tonconnect-bridge/bridge.js"
+  "iconUrl": "https://raw.githubusercontent.com/vitaliyugnenko/tgminapp/main/src/assets/react.png"
 }
