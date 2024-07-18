@@ -1,9 +1,5 @@
 {
-  "url": "https://tgminapp.vercel.app",
+  "url": "https://tgminapp-hrv3icitx-vitaliis-projects-34ffd273.vercel.app",
   "name": "tgminapp",
-<<<<<<< HEAD:tonconnect-manifest.json
-  "iconUrl": "https://tgminapp-hrv3icitx-vitaliis-projects-34ffd273.vercel.app/react.png"
-=======
-  "iconUrl": "https://raw.githubusercontent.com/vitaliyugnenko/tgminapp/main/src/assets/telegram.png"
->>>>>>> 746cb35a0c58e0955efdc4a90fb780cba42417d1:src/tonconnect-manifest.json
+  "iconUrl": "https://raw.githubusercontent.com/vitaliyugnenko/tgminapp/main/src/assets/react.png"
 }
